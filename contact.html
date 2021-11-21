@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <title>Contact Page</title>
+
+        <link href="css/styleone.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="images/wardlogo.png" alt="picture of company logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="cyber.html">Cyber Security Testing</a></li>
+                                    <li><a class="dropdown-item" href="infopro.html">Information Protection</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <br>
+            <br>
+            <div class="row text-center">
+                <h3>Our Information:</h3>
+                <p>Address:<br>
+                    Unit 2054,<br>
+                    Citywest Business Park,<br>
+                    Dublin 24,
+                    Ireland<br>
+                </p>
+                <p>Telephone:<br>
+                    <a href = "Tel:(01) 642 0100" >(01) 642 0100</a>
+                </p>
+                <p>Visit our website:<br>
+                    <a href="https://www.ward.ie/">click here</a>
+                </p>
+            </div>
+            <div class= "row text-center" id="images"> 
+                <img src="images/whiteiphone.jpg" class="img-responsive" alt="picture of a white iphone">
+            </div>
+            <div class="row text-center" id="video">
+                <h1 id="heading">Learn about Ward</h1>
+                <h2>Watch our video:</h2>
+                <div class="embed-responsive embed-responsive-16by9"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bukytoBNeDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="row text-center" id="contactform">
+                    <h2 id="contact">Our contact form</h2>
+                    <br>
+                    <h3>Please fill in your information below:</h3>
+                    <form
+                          action="https://formspree.io/f/mgergzbl"
+                          method="POST"
+                          >
+                        <div class="mb-3">     
+                            <label for="name" class="Name">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name here">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email address here">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Telephone:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter telephone">
+                        </div>
+                        <div class="mb-3">
+                            <label>
+                                Your message:
+                                <textarea name="message"></textarea>
+                            </label> 
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center" id="footer">
+            <h5  id="connect">Connect</h5>
+            <div class="col-xs-4">
+            <a class="twitter-timeline" data-width="350" data-height="200" href="https://twitter.com/wardsolutions?ref_src=twsrc%5Etfw">Tweets by wardsolutions</a> <script async src="https://platform.twitter.com/widgets.js"></script></div>
+        <div class="col-xs-4">
+            <a href="https://twitter.com/wardsolutions"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a></div>
+        <div class="col-xs-4">
+            <a href="https://www.linkedin.com/company/ward-solutions/"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a></div>
+    <div class="col-xs-4">
+        <i class="fa fa-copyright fa-1x" aria-hidden="true">2021 Ward Solutions. All rights reserved</i>
+    </div>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+    </body>
+</html>

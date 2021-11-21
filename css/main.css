@@ -1,0 +1,47 @@
+nav{
+  position: fixed;
+  border: solid purple;
+  font: bold;
+}
+
+html body{
+    font-family: sans-serif;
+    background-image: linear-gradient(#9999ff,#ffffff );
+    color: blue;
+}
+
+.inline { 
+display: inline;
+}
+
+.textimage{
+    color: #0000cc;
+    font-weight: bold;
+}
+
+#row {
+padding: 0;
+margin: 0;
+}
+#heading{
+text-align: center;
+font-weight: bold;
+}
+
+#footer{
+border: solid purple;
+padding: 50px;
+margin: 20px;   
+}
+.wardimage{
+padding: 0!important;
+margin: 0!important;
+}
+#connect{
+font-weight: bold;
+padding: 20px;
+}
+#message{
+padding: 20px;
+}
+

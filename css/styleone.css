@@ -1,0 +1,43 @@
+nav{
+    position: fixed;
+    border: solid purple;
+    font: bold;
+}
+
+html body{
+    font-family: sans-serif;
+    background-image: linear-gradient(#9999ff,#ffffff);
+    color: blue;
+}
+#form{
+    display: inline-block;
+    color: blue;
+}
+
+#about{
+    background-color: lavender;
+}
+
+#contentform{
+    padding: 10px;
+    margin: 5px;
+}
+#footer{
+    border: solid purple;
+    padding: 50px;
+    margin: 20px;   
+}
+#contact{
+    border: solid purple;
+    padding: 50px;
+    margin: 20px; 
+}
+#images{
+    padding: 30px;
+    margin: 15px;
+}
+#heading{
+    border: solid purple;
+    padding: 10px;
+    margin: 5px;
+}
